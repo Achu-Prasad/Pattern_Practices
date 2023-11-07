@@ -1,7 +1,7 @@
 # Pattern_Practices
  This Repository Containes all the patterns i practiced
 
-
+<pre>
 Pattern1
 
 *    
@@ -13,8 +13,8 @@ Pattern1
 ***  
 **   
 *    
-
-
+</pre>
+<code>
 #include <stdio.h>
 
 int main() {
@@ -31,3 +31,4 @@ int main() {
 
     return 0;
 }
+</code>
