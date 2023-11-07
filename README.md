@@ -14,11 +14,16 @@ Pattern1
 **   
 *    
 </pre>
-<code>
+
+<pre>
+Answer: 
+
 #include <stdio.h>
 
 int main() {
+
     int i,j;
+
     for (i=1;i<=9;i++){
         for (j=1;j<=5;j++){
             if(j-i<=0 && i+j<=10){
@@ -28,7 +33,6 @@ int main() {
             }
         }printf("\n");
     }
-
     return 0;
 }
-</code>
+</pre>
