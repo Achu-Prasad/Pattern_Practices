@@ -74,8 +74,6 @@ Answer:
     }
 
 </pre>
-
-<pre></pre>
 <pre>
 Pattern 3
 
@@ -151,3 +149,49 @@ int main() {
 }
 
 </pre>
+<pre>
+Pattern 5
+
+* * * * * * * 
+* *       * * 
+*   *   *   * 
+*     *     * 
+*   *   *   * 
+* *       * * 
+* * * * * * * 
+
+</pre>
+<pre>
+Answer:
+
+#include <stdio.h>
+
+int main() {
+    int i,j;
+    for(i=1;i<=7;i++){
+        for(j=1;j<=7;j++){
+            
+            if(i==1||j==7 || i==7 || j==1)
+            printf("* ");
+            else if(i+j==8 || i==j)
+            printf("* ");
+            else
+            printf("  ");
+        }printf("\n");
+    }
+    return 0;
+}
+</pre>
+<!-- <pre></pre>
+<pre></pre>
+<pre></pre>
+<pre></pre>
+<pre></pre>
+<pre></pre>
+<pre></pre>
+<pre></pre>
+<pre></pre>
+<pre></pre>
+<pre></pre>
+<pre></pre>
+<pre></pre> -->
