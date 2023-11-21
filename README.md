@@ -216,7 +216,49 @@ int main() {
 }
 
 </pre>
-<!-- <pre></pre>
+<pre>
+Pattern 7
+
+13579
+35791
+57913
+79135
+91357
+</pre>
+<pre>
+Answer:
+
+#include <stdio.h>
+
+int main() {
+    int i,j,k,l;
+    
+    for(i=1;i<=5;i++){
+        k=(2*i)-1;
+        l=1;
+        for(j=1;j<=5;j++){
+            if(i+j<=6){
+                printf("%d",k);
+                k=k+2;
+               
+                }
+                else if(i+j>6){
+                printf("%d",l);
+                l=l+2;
+                }
+                
+                
+            }printf("\n");
+        }
+    return 0;
+}
+
+</pre>
+<pre>
+Pattern 8
+
+
+</pre>
 <pre></pre>
 <pre></pre>
 <pre></pre>
@@ -225,5 +267,3 @@ int main() {
 <pre></pre>
 <pre></pre>
 <pre></pre>
-<pre></pre>
-<pre></pre> -->
