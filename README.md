@@ -254,9 +254,34 @@ int main() {
 }
 
 </pre>
-<pre>
 Pattern 8
 
+1 3 5 7 9 
+3 5 7 9 1 
+5 7 9 3 1 
+7 9 5 3 1 
+9 7 5 3 1 
+
+<pre>
+Answer:
+
+int main() {
+    int i, j,k=1,l;
+    for(i=1;i<=5;i++){
+        k=(2*i)-1;
+        l=2*(i-1)-1;
+        for(j=1;j<=5;j++){
+            if(i+j<=6){
+                printf("%d ",k);
+                k=k+2;
+            }
+                else if(i+j>6){
+                printf("%d ",l);
+                l=l-2;}
+                
+            }printf("\n");
+        }
+}
 
 </pre>
 <pre></pre>
