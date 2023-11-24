@@ -326,6 +326,7 @@ Pattern 10
    4 8 
     5 
 </pre>
+
 <pre>
 Answer:
 
@@ -336,7 +337,7 @@ int main() {
     for(i=1;i<=5;i++){
         k=i;
         for(j=1;j<=5;j++){
-            if(j<i){
+            if(j < i){
                 printf(" ");
             }else{
                 printf("%d ",k);
@@ -349,6 +350,7 @@ int main() {
 }
 
 </pre>
+
 <pre></pre>
 <pre></pre>
 <pre></pre>
